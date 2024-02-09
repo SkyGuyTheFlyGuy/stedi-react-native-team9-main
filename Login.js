@@ -7,6 +7,7 @@ export default function Login(props){
             <Text>This is the Login Screen</Text>
             <Button title="Log In" onPress={()=>{"Hello Angelica"}}></Button>
             <Button title="Log In" onPress={()=>{"Hello Skyler"}}></Button>
+            <Button title="Log In" onPress={()=>{"Hello Frank"}}></Button>
             
         </View>
 
