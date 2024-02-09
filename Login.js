@@ -12,10 +12,10 @@ export default function Login(props) {
         <View style={styles.login}>
             <Text>This is the Login Screen</Text>
             <Button title="Log In" onPress={() => handleButtonPress("Angelica")} />
-            <Button title="Log In" onPress={() => handleButtonPress("John")} />
-            <Button title="Log In" onPress={() => handleButtonPress("Emily")} />
-            <Button title="Log In" onPress={() => handleButtonPress("Michael")} />
-            <Button title="Log In" onPress={() => handleButtonPress("Sophia")} />
+            <Button title="Log In" onPress={() => handleButtonPress("Mike")} />
+            <Button title="Log In" onPress={() => handleButtonPress("Skyler")} />
+            <Button title="Log In" onPress={() => handleButtonPress("Frank")} />
+            <Button title="Log In" onPress={() => handleButtonPress("Erick")} />
             {message !== "" && <Text>{message}</Text>}
         </View>
     );
