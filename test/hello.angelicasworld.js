@@ -1,4 +1,4 @@
-import hello from "../utils/hello.js";
+import hello from "../utils/hello.angelica.js";
 
 it("Should say Angelica",()=>{
     const helloString=hello();
